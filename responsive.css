@@ -1,0 +1,48 @@
+@media only screen and (max-width:576px) {
+    nav{
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .G3-Architects{
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 43px;
+        text-align: center;
+        color: red;
+        margin-bottom: 20px;
+    
+    }
+    .G3-Architects span{
+        color: black;
+        font-size: 45px;
+    }
+    .menu{
+        background-color:cornsilk;
+        border-radius: 10px;
+        height: 40px;
+        padding-bottom: 10px;
+        width: 100%;
+        box-shadow: 5px 5px 25px  gray;
+    }
+    .menu ul{
+        gap:0 10px;
+        margin-top: 20px;
+        
+    }
+    .menu ul li{
+        border-bottom: 2px solid transparent;
+    }
+    .menu li a{
+        font-size: 16px;
+        padding-bottom: 4px;
+       
+        
+    }
+    .menu li a:hover{
+        border-bottom: 2px solid blue;
+        color: blue;
+        font-weight: 800px;
+    }
+}

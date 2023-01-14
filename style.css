@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(245, 243, 240, 0.1);
+    margin: 0 auto;
+}
+
+
+/*--------------------------
+         header nav
+---------------------------- */
+nav{
+    margin-top: 23px;
+    display: flex;
+    justify-content: space-between;
+   box-shadow: 5px 5px 5px gray;
+}
+.G3-Architects{
+    font-weight: 700;
+    font-size: 45px;
+    text-align: center;
+    color: #131313;
+
+}
+.G3-Architects span{
+    color: black;
+    font-size: 65px;
+}
+
+.menu ul{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(4,1fr);
+    gap:0 20px;
+    margin-top: 30px;
+    
+}
+.menu ul li{
+    list-style: none;
+    border-bottom: 2px solid transparent;
+}
+.menu li a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    color: #424242;
+    padding-bottom: 5px;
+   
+    
+}
+.menu li a:hover{
+    border-bottom: 2px solid blue;
+    color: blue;
+    font-weight: 800px;
+}
+
+/*--------------------------
+         header nav End
+---------------------------- */
