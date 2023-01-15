@@ -1,8 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
 *{
-    margin: 0;
     padding: 0;
-    background-color: rgba(245, 243, 240, 0.1);
     margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
 }
 
 
@@ -10,10 +11,17 @@
          header nav
 ---------------------------- */
 nav{
-    margin-top: 23px;
+    padding:5px 0 20px;
     display: flex;
     justify-content: space-between;
-   box-shadow: 5px 5px 5px gray;
+    box-shadow: 2px 2px 2px gray;
+    border-radius: 10px;
+    height: 80px;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    background-color:darkcyan;
+    margin: 0 auto;
 }
 .G3-Architects{
     font-weight: 700;
@@ -23,7 +31,7 @@ nav{
 
 }
 .G3-Architects span{
-    color: black;
+    color: red;
     font-size: 65px;
 }
 
@@ -44,10 +52,9 @@ nav{
     font-weight: 500;
     font-size: 18px;
     text-align: center;
-    color: #424242;
+    color:cornsilk;
     padding-bottom: 5px;
    
-    
 }
 .menu li a:hover{
     border-bottom: 2px solid blue;
@@ -58,3 +65,179 @@ nav{
 /*--------------------------
          header nav End
 ---------------------------- */
+
+/*--------------------------
+ header banner part start
+---------------------------- */
+
+.banner-text{
+    padding: 130px 300px 50px;
+    text-align: center;
+}
+.banner-text h1{
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    color: #131313;
+}
+.banner-text span{
+    color: brown;
+    font-size: 70px;
+}
+.banner-text p{
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #727272;
+    padding: 20px 5px;
+}
+
+.banner-text button{
+    font-weight: 600;
+    font-size: 18px;
+    color: #FFFFFF;
+    background: #FF900E;
+    border-radius: 8px;
+    border:none;
+    padding: 20px 25px;
+}
+
+.banner-img{
+    width: 1200px;
+    height: 600px;
+    border-radius: 8px;
+    /* background: url(./images/banner.png); */
+    margin: 50px 200px;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+}
+
+.banner-img img{
+    max-width: 100%;
+}
+
+/*--------------------------
+ header banner part end
+---------------------------- */
+
+
+    /* ------ main part start
+    -------------------------------- */
+
+  /* ----------------------------
+            part-1 
+    Quick list of Our Features
+ ------------------------------------ */
+ .Our-Features{
+    padding: 50px 100px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 0 50px;
+ }
+ .Features-gallery{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap: 5px;
+ }
+ .Features-text-side{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .Features-text-side h2{
+    font-size: 45px;
+    color: #131313;
+    font-weight: 700px;
+    line-height: 53px;
+ }
+ #Quick{
+    font-weight: 400px;
+    color: #727272;
+ }
+
+ .Features{
+    color: #FF900E;
+ }
+ .Features-text-side p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    margin: 10px 0;
+ }
+ .Features-text-side button{
+    font-weight: 600;
+    font-size: 18px;
+    color: #FFFFFF;
+    background: #FF900E;
+    border-radius: 8px;
+    border:none;
+    padding: 20px 25px;
+ }
+
+
+ /* ----------------------------
+            part-2 
+ Features you will love & enjoy
+------------------------------------ */
+.love_enjoy{
+    display: flex;
+     justify-content: space-between;
+     margin:50px 100px;
+     gap: 20px 55px;
+}
+
+ .love_enjoy_article_part h2{
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 53px;
+    color: #131313;
+    padding: 20px;
+ }
+ .love_enjoy_article_part p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+ }
+ .love_enjoy_article_part article{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    padding: 12px;
+    margin: 20px 0;
+ }
+ .love_enjoy_article_part article h4{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #131313;
+    margin: 5px 0;
+ }
+.love_enjoy_img_part{
+    position: relative;
+}
+ .Year{
+    background: #FF900E;
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-size: 45px;
+    line-height: 40px;
+    padding: 50px 100px;
+    border: none;
+    position: absolute;
+    bottom: -40px;
+    left: 0px;
+    /* margin-top:-200px;
+    margin-left: 0; */
+    opacity: calc(0.7);
+ }
+ .Year:hover{
+    background-color: #727272;
+ }
+ .Year span{
+    font-weight: 500;
+    font-size: 25px;
+ }
+
+ 

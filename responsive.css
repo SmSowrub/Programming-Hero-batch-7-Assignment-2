@@ -3,6 +3,8 @@
         display: flex;
         flex-direction: column;
         margin-top: 20px;
+        margin: 0 auto;
+        background-color: darkslategrey;
     }
 
     .G3-Architects{
@@ -11,6 +13,7 @@
         line-height: 43px;
         text-align: center;
         color: red;
+        padding-top: 5px;
         margin-bottom: 20px;
     
     }
@@ -19,16 +22,18 @@
         font-size: 45px;
     }
     .menu{
+
         background-color:cornsilk;
         border-radius: 10px;
         height: 40px;
         padding-bottom: 10px;
         width: 100%;
         box-shadow: 5px 5px 25px  gray;
+        
     }
     .menu ul{
         gap:0 10px;
-        margin-top: 20px;
+        margin-top: 14px;
         
     }
     .menu ul li{
@@ -36,8 +41,8 @@
     }
     .menu li a{
         font-size: 16px;
-        padding-bottom: 4px;
-       
+        padding-bottom: 5px;
+        color: darkgreen;
         
     }
     .menu li a:hover{
@@ -45,4 +50,88 @@
         color: blue;
         font-weight: 800px;
     }
+
+
+    /*--------------------------
+ header banner part start responsive
+---------------------------- */
+
+.banner-text{
+    padding: 180px 20px 20px;
+    text-align: center;
 }
+.banner-text span{
+    color: brown;
+    font-size: 50px;
+}
+.banner-text h1{
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 50px;
+}
+
+.banner-img{
+    width: 100%;
+    height: 200px;
+    margin: 0 auto;
+    padding: 13px;
+}
+
+/* ------ main part start Responsive
+    ---------------------------------------*/
+
+  /* ----------------------------
+            part-1 
+    Quick list of Our Features
+ ------------------------------------ */
+ .Our-Features{
+    padding: 20px 10px;
+    grid-template-columns: repeat(1,1fr);
+    gap: 0 20px;
+ }
+ .Features-gallery{
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: repeat(1,1fr);
+    gap: 5px;
+ }
+ .Features-text-side{
+    text-align: center;
+    margin-top: 20px;
+ }
+ .Features-text-side h2{
+    font-size: 35px;
+    font-weight: 600px;
+ }
+
+  /* ----------------------------
+            part-2 
+ Features you will love & enjoy responsive
+-------------------------------------------*/
+.love_enjoy{
+    display: flex;
+     flex-direction: column;
+     margin:20px 10px;
+     gap: 20px;
+}
+.love_enjoy_article_part h2{
+    font-weight: 700;
+    text-align: center;
+ }
+ .love_enjoy_article_part > p{
+    text-align: center;
+ }
+.love_enjoy_img_part img{
+    width: 100%;
+}
+.Year{
+    padding: 10px 120px;
+    height: 150px;
+    top: 300px;
+    left: 0;
+    opacity: calc(0.5);
+ }
+
+}
+
+
+  
