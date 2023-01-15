@@ -240,4 +240,119 @@ nav{
     font-size: 25px;
  }
 
+ /* ----------------------------
+        part-3
+        Some Facts 
+------------------------------------ */
+
+ .Some-Facts{
+    margin:100px 120px ;
+ }
+ .some-facts-title{
+    width: 542px;
+    height: 252px;
+    margin-left: 0;
+    margin-bottom: 0;
+ }
+ .some-facts-title h2{
+    font-weight: 900;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
+    padding: 25px 10px;
+ }
+ .some-facts-title > p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+ }
+ .other-reword-site{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    column-gap: 30px;
+
+ }
+ .Awards{
+    border: 1px solid #FF900E;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    animation: animation 5s linear ease-in ;
+    
+ }
  
+ .Awards:hover{
+    background-color: cadetblue;
+    border-radius:10px;
+ }
+ .Awards:hover p{
+    color: #FFFFFF;
+ }
+ .Awards:hover h3{
+    color: #131313;
+ }
+ .Awards img{
+    width: 45.22px;
+    height: 45.22px;
+    margin: 20px 0 10px;
+ }
+ .Awards h3{
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 33px;
+    color: #424242;
+
+ }
+ .Awards p{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    color: #727272;
+    margin-top: 10px;
+ }
+
+ /* ----------------------------
+           part-4
+        Our Sponspors
+ ------------------------------------ */
+
+ .Our-Sponspors{
+    margin:100px 120px ;
+    
+ }
+ .Sponspors-text{
+    width: 542px;
+    height: 52px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px 0;
+ }
+ .Sponspors-text h3{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
+ }
+ .Sponspors-text p{
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #727272;
+    margin-top: 20px;
+ }
+ .Sponspors{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    column-gap: 50px;
+    padding-top: 110px;
+    
+ }
+
+
+
+ footer{
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #424242;
+ }
