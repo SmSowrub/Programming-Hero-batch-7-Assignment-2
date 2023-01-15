@@ -277,17 +277,27 @@ nav{
     width: 200px;
     height: 200px;
     text-align: center;
-    animation: animation 5s linear ease-in ;
+   
     
+ }
+ @keyframes awards {
+    from {
+        width: 200px; 
+
+    }
+    to {
+        width: 220px;
+        background-color: cadetblue;
+        border-radius:10px;
+    }
  }
  
  .Awards:hover{
-    background-color: cadetblue;
-    border-radius:10px;
+    animation-name: awards;
+    animation-duration: 3s;
+
  }
- .Awards:hover p{
-    color: #FFFFFF;
- }
+
  .Awards:hover h3{
     color: #131313;
  }
